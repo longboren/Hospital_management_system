@@ -1,0 +1,62 @@
+[
+  {
+    "id": "APT001",
+    "patientId": "PAT001",
+    "doctorId": "DOC001",
+    "scheduledTime": "2025-11-10T10:00:00.000Z",
+    "appointmentType": "Follow-up Consultation",
+    "reason": "Hypertension checkup and medication review",
+    "status": "scheduled",
+    "actualStartTime": null,
+    "actualEndTime": null,
+    "notes": null
+  },
+  {
+    "id": "APT002",
+    "patientId": "PAT002",
+    "doctorId": "DOC003",
+    "scheduledTime": "2025-11-08T14:30:00.000Z",
+    "appointmentType": "General Consultation",
+    "reason": "Asthma control assessment",
+    "status": "scheduled",
+    "actualStartTime": null,
+    "actualEndTime": null,
+    "notes": null
+  },
+  {
+    "id": "APT003",
+    "patientId": "PAT003",
+    "doctorId": "DOC002",
+    "scheduledTime": "2025-11-07T09:00:00.000Z",
+    "appointmentType": "Initial Consultation",
+    "reason": "Chronic back pain evaluation",
+    "status": "scheduled",
+    "actualStartTime": null,
+    "actualEndTime": null,
+    "notes": null
+  },
+  {
+    "id": "APT004",
+    "patientId": "PAT005",
+    "doctorId": "DOC001",
+    "scheduledTime": "2025-11-06T11:00:00.000Z",
+    "appointmentType": "Urgent Consultation",
+    "reason": "Chest pain and shortness of breath",
+    "status": "scheduled",
+    "actualStartTime": null,
+    "actualEndTime": null,
+    "notes": null
+  },
+  {
+    "id": "APT005",
+    "patientId": "PAT004",
+    "doctorId": "DOC003",
+    "scheduledTime": "2025-11-05T15:00:00.000Z",
+    "appointmentType": "Vaccination",
+    "reason": "Annual flu vaccine",
+    "status": "completed",
+    "actualStartTime": "2025-11-05T15:05:00.000Z",
+    "actualEndTime": "2025-11-05T15:20:00.000Z",
+    "notes": "Flu vaccine administered. No adverse reactions. Patient advised to rest and monitor for any side effects."
+  }
+]

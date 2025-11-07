@@ -1,0 +1,22 @@
+name: hospital_management_system
+description: A comprehensive Hospital Management System built with Dart using OOP principles and layered architecture
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  # Core dependencies would be added here for production use
+  # For example:
+  # dio: ^5.0.0
+  # shared_preferences: ^2.0.0
+
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^3.0.0
+  mockito: ^5.4.0
+
+# Add these lines to enable stronger static analysis
+dependency_overrides:
+  test: ^1.24.0

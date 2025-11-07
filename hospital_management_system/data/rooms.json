@@ -1,0 +1,215 @@
+[
+  {
+    "id": "ROOM001",
+    "number": "101",
+    "type": "privateRoom",
+    "capacity": 1,
+    "pricePerDay": 250.0,
+    "equipment": ["Heart Monitor", "Oxygen Supply", "Call Button", "TV"],
+    "beds": [
+      {
+        "id": "ROOM001-B01",
+        "roomId": "ROOM001",
+        "bedNumber": 1,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      }
+    ],
+    "availableBedsCount": 1,
+    "occupiedBedsCount": 0
+  },
+  {
+    "id": "ROOM002",
+    "number": "102",
+    "type": "privateRoom",
+    "capacity": 1,
+    "pricePerDay": 250.0,
+    "equipment": ["Heart Monitor", "Oxygen Supply", "Call Button", "TV", "Private Bathroom"],
+    "beds": [
+      {
+        "id": "ROOM002-B01",
+        "roomId": "ROOM002",
+        "bedNumber": 1,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      }
+    ],
+    "availableBedsCount": 1,
+    "occupiedBedsCount": 0
+  },
+  {
+    "id": "ROOM201",
+    "number": "201",
+    "type": "generalWard",
+    "capacity": 4,
+    "pricePerDay": 150.0,
+    "equipment": ["Oxygen Supply", "Call Buttons", "Curtains"],
+    "beds": [
+      {
+        "id": "ROOM201-B01",
+        "roomId": "ROOM201",
+        "bedNumber": 1,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      },
+      {
+        "id": "ROOM201-B02",
+        "roomId": "ROOM201",
+        "bedNumber": 2,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      },
+      {
+        "id": "ROOM201-B03",
+        "roomId": "ROOM201",
+        "bedNumber": 3,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      },
+      {
+        "id": "ROOM201-B04",
+        "roomId": "ROOM201",
+        "bedNumber": 4,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      }
+    ],
+    "availableBedsCount": 4,
+    "occupiedBedsCount": 0
+  },
+  {
+    "id": "ICU001",
+    "number": "ICU-01",
+    "type": "icu",
+    "capacity": 1,
+    "pricePerDay": 500.0,
+    "equipment": ["Ventilator", "Heart Monitor", "Defibrillator", "IV Pumps", "Central Line", "Arterial Line"],
+    "beds": [
+      {
+        "id": "ICU001-B01",
+        "roomId": "ICU001",
+        "bedNumber": 1,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      }
+    ],
+    "availableBedsCount": 1,
+    "occupiedBedsCount": 0
+  },
+  {
+    "id": "ER001",
+    "number": "ER-01",
+    "type": "emergency",
+    "capacity": 2,
+    "pricePerDay": 300.0,
+    "equipment": ["Crash Cart", "Monitor", "Oxygen", "Suction"],
+    "beds": [
+      {
+        "id": "ER001-B01",
+        "roomId": "ER001",
+        "bedNumber": 1,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      },
+      {
+        "id": "ER001-B02",
+        "roomId": "ER001",
+        "bedNumber": 2,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      }
+    ],
+    "availableBedsCount": 2,
+    "occupiedBedsCount": 0
+  },
+  {
+    "id": "OR001",
+    "number": "OR-01",
+    "type": "operatingRoom",
+    "capacity": 1,
+    "pricePerDay": 1000.0,
+    "equipment": ["Operating Table", "Surgical Lights", "Anesthesia Machine", "Monitors", "Surgical Instruments"],
+    "beds": [
+      {
+        "id": "OR001-B01",
+        "roomId": "OR001",
+        "bedNumber": 1,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      }
+    ],
+    "availableBedsCount": 1,
+    "occupiedBedsCount": 0
+  },
+  {
+    "id": "CONS001",
+    "number": "C-101",
+    "type": "consultationRoom",
+    "capacity": 1,
+    "pricePerDay": 100.0,
+    "equipment": ["Examination Table", "Blood Pressure Monitor", "Thermometer", "Stethoscope"],
+    "beds": [
+      {
+        "id": "CONS001-B01",
+        "roomId": "CONS001",
+        "bedNumber": 1,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      }
+    ],
+    "availableBedsCount": 1,
+    "occupiedBedsCount": 0
+  },
+  {
+    "id": "MAT001",
+    "number": "M-201",
+    "type": "maternity",
+    "capacity": 2,
+    "pricePerDay": 350.0,
+    "equipment": ["Fetal Monitor", "Incubator", "Oxygen Supply", "Baby Warmer"],
+    "beds": [
+      {
+        "id": "MAT001-B01",
+        "roomId": "MAT001",
+        "bedNumber": 1,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      },
+      {
+        "id": "MAT001-B02",
+        "roomId": "MAT001",
+        "bedNumber": 2,
+        "status": "available",
+        "patientId": null,
+        "assignedDate": null,
+        "dischargeDate": null
+      }
+    ],
+    "availableBedsCount": 2,
+    "occupiedBedsCount": 0
+  }
+]
